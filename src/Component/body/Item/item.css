@@ -1,0 +1,38 @@
+.item{
+    height: 30px;
+    background-color: #fff;
+    margin: 8px 15px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 80%;
+}
+.item.iscompleted{
+    background-color: rgba(44, 90, 86, 0.705);
+    text-decoration:line-through #000 3px;
+}
+.item.uncompleted{
+    width: 80%;
+    background: #fff;
+}
+.activity{
+    width: 8px;
+    padding: 0px;
+    margin: 8px;
+    background-color: #fff;
+    visibility: visible;
+    border-radius: 5px;
+    transition: width 1s linear;
+}
+.activity img{visibility: hidden;}
+.activity:hover{
+    width: 20px;
+    padding: 10px;
+}
+.activity:hover img{
+    visibility: visible;
+}
+.container{
+    display: flex;
+}

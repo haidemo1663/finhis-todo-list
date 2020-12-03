@@ -1,0 +1,41 @@
+
+.header .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.header .top .start-head{
+    margin-top: 20px;
+    flex-grow: 0;
+}
+.header .top img{
+    width:20px;
+    margin: 0 6px;
+}
+.header .top .middle-head{
+    flex-grow: 1;
+    text-align: center;
+}
+.header .top .end-head{
+    flex-grow: 0;
+    display: flex;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+}
+.header .title img{
+    width: 20px;
+    position: relative;
+    left:-70px;
+}
+.title h3{
+    align-items: center;
+    position: relative;
+    left: -100px;
+    letter-spacing: 4px;
+
+}
